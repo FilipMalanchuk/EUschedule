@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Розклад ЕУ</title>
+	<link rel="icon" href="https://e-u.edu.ua/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="inner">
+				<div class="inner-header">
+					<div class="LogoContainer"><img src="images/logo.svg" alt="Logo" class="logo"></div>
+					<div class="searchBar fs20">
+						<div class="naprav">
+							<p>Факультет</p>
+							<!-- <input type="text"> -->
+							<select name="facult" id="facult">
+								<option value="blank"></option>
+								<option value="FIST">ФІСТ</option>
+								<option value="FEM">ФЕМ</option>
+							</select>
+						</div>
+						<div class="dataCurs">
+							<p>Дата та курс</p>
+							<select name="dataCurs" id="dataCurs">
+								<option value="blank"></option>
+							</select>
+						</div>
+						<div class="groupChoose">
+							<p>Розклад занять для</p>
+							<select name="groupChoose" id="groupChoose">
+								<option value="blank"></option>
+							</select>
+						</div>
+					</div>
+				</div><!-- inner-header -->
+			</div>
+		</header><!-- end of header -->
+		<main>
+			<div class="inner">
+				<div class="inner-main">
+					<div class="weekday monday">
+						<div class="line firstLine"><img src="images/monday.png" alt="monday" class="weekdayLogo"><p class="daytext">Понеділок</p></div>
+						<div class="line">
+							<p class="Col1">Час</p>
+							<p class="Col2">Предмет/викладач</p>
+							<p class="Col3">Л/Пр</p>
+							<p class="Col4">Ауд</p>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">9:00 - 10:00</p>
+							<p class="Col2 Subject"> </p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p> </p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p> </p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">10:15 - 11:15</p>
+							<p class="Col2 Subject"> </p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p> </p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p> </p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">11:30 - 12:30</p>
+							<p class="Col2 Subject"> </p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p> </p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p> </p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">12:45 - 13:45</p>
+							<p class="Col2 Subject"> </p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p> </p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p> </p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">14:00 - 15:00</p>
+							<p class="Col2 Subject"> </p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p> </p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p> </p>
+							</div>
+						</div>
+					</div><!-- end of weekday -->
+					<div class="weekday tuesday">
+						<div class="line firstLine"><img src="images/tuesday.png" alt="tuesday" class="weekdayLogo"><p class="daytext">Вівторок</p></div>
+						<div class="line">
+							<p class="Col1">Час</p>
+							<p class="Col2">Предмет/викладач</p>
+							<p class="Col3">Л/Пр</p>
+							<p class="Col4">Ауд</p>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">9:00 - 10:00</p>
+							<p class="Col2 Subject"> </p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p> </p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="" alt="" class="AudLogo">
+								<p> </p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">10:15 - 11:15</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">11:30 - 12:30</p>
+							<p class="Col2 Subject"> </p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p> </p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p> </p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">12:45 - 13:45</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">14:00 - 15:00</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+					</div><!-- end of weekday -->
+					<div class="weekday wednesday">
+						<div class="line firstLine"><img src="images/wednesday.png" alt="wednesday" class="weekdayLogo"><p class="daytext">Середа</p></div>
+						<div class="line">
+							<p class="Col1">Час</p>
+							<p class="Col2">Предмет/викладач</p>
+							<p class="Col3">Л/Пр</p>
+							<p class="Col4">Ауд</p>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">9:00 - 10:00</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">10:15 - 11:15</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">11:30 - 12:30</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">12:45 - 13:45</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">14:00 - 15:00</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+					</div><!-- end of weekday -->
+					<div class="weekday thursday">
+						<div class="line firstLine"><img src="images/thursday.png" alt="thursday" class="weekdayLogo"><p class="daytext">Четвер</p></div>
+						<div class="line">
+							<p class="Col1">Час</p>
+							<p class="Col2">Предмет/викладач</p>
+							<p class="Col3">Л/Пр</p>
+							<p class="Col4">Ауд</p>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">9:00 - 10:00</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">10:15 - 11:15</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">11:30 - 12:30</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">12:45 - 13:45</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">14:00 - 15:00</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+					</div><!-- end of weekday -->
+					<div class="weekday friday">
+						<div class="line firstLine"><img src="images/friday.png" alt="friday" class="weekdayLogo"><p class="daytext">П'ятниця</p></div>
+						<div class="line">
+							<p class="Col1">Час</p>
+							<p class="Col2">Предмет/викладач</p>
+							<p class="Col3">Л/Пр</p>
+							<p class="Col4">Ауд</p>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">9:00 - 10:00</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">10:15 - 11:15</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">11:30 - 12:30</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">12:45 - 13:45</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">14:00 - 15:00</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+					</div><!-- end of weekday -->
+					<div class="weekday saturday">
+						<div class="line firstLine"><img src="images/saturday.png" alt="saturday" class="weekdayLogo"><p class="daytext">Субота</p></div>
+						<div class="line">
+							<p class="Col1">Час</p>
+							<p class="Col2">Предмет/викладач</p>
+							<p class="Col3">Л/Пр</p>
+							<p class="Col4">Ауд</p>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">9:00 - 10:00</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">10:15 - 11:15</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">11:30 - 12:30</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">12:45 - 13:45</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+						<div class="line dataline">
+							<p class="time Col1">14:00 - 15:00</p>
+							<p class="Col2 Subject"></p>
+							<div class="lectPrac Col3">
+								<img src="#" alt="" class="lectPracLogo">
+								<p></p>
+							</div>
+							<div class="Col4 Aud">
+								<img src="#" alt="" class="AudLogo">
+								<p></p>
+							</div>
+						</div>
+					</div><!-- end of weekday -->
+				</div>
+			</div>
+		</main><!-- end of main -->
+		<div class="separator">
+			<div class="inner">
+				<div class="sepLine"></div>
+			</div>
+		</div>
+
+		<div class="contacts">
+			<div class="inner">
+				<div class="inner-contacts">
+					<div class="line firstLine"><p class="daytext">Контакти</p></div>
+					<div class="line">
+						<div class="position">Декан Факультету економіки та менеджменту</div>
+						<div class="name">Амбер Артур Юрійович</div>
+						<div class="phone">+38 (044) 423-00-49</div>
+					</div>
+
+					<div class="line">
+						<div class="position">Декан Факультету інформаційних систем та технологій</div>
+						<div class="name">Милашенко Віктор Миколайович</div>
+						<div class="phone">+38 (044) 424-13-86</div>
+					</div>
+
+					<div class="line">
+						<div class="position">Декан Факультету психології та соціальних технологій</div>
+						<div class="name">Бортун Каріна Олександрівна</div>
+						<div class="phone">+380</div>
+					</div>
+
+					<div class="line">
+						<div class="position">Декан факультету по роботі з іноземними студентами </div>
+						<div class="name">Крайчак Євгеній Вікторович</div>
+						<div class="phone">+380952833370</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- end of contacts -->
+
+		<footer>
+			<div class="inner">
+				<div class="inner-footer fs20">
+					<div class="links">
+						<div class="link paddHov"><a href="https://e-u.edu.ua/ua/">Повернутися на головну</a></div>
+						<div class="link paddHov"><a href="https://t.me/studentEU">Телеграм канал</a></div>
+						<div class="tglinklist">
+							<div class="paddHov nohov">Телеграм чати студентів:</div>
+							<div class="link paddHov"><a href="https://t.me/+b9bwvW17S45iODNi">Коледжу</a></div>
+							<div class="link paddHov"><a href="https://t.me/+Tu4phWVSB34zMWIy">ФЕМ</a></div>
+							<div class="link paddHov"><a href="https://t.me/+vA2paYZg9mBiNTAy">ФІСТ</a></div>
+							<div class="link paddHov"><a href="https://t.me/+uj1zzJhhr5E1OTUy">ЮФ</a></div>
+							<div class="link paddHov"><a href="https://t.me/+6aF3j5mCtpkwYWEy">ФПСТ</a></div>
+						</div>
+					</div>
+					<div class="social">
+						<a href="https://www.facebook.com/euuniversitet/" class="fb"></a>
+						<a href="https://www.youtube.com/channel/UCqCT22qK04Rrca59FO64_yA/videos" class="youtube"></a>
+						<a href="https://www.tiktok.com/@european_university" class="tiktok"></a>
+					</div>
+					<a href="tel:044-334-53-04" class="phone">(044) 334-53-04</a>
+				</div>
+			</div>
+		</footer>
+	</div><!-- end of wrapper -->
+
+	
+	<script src="js/main.js"></script>
+</body>
+</html>
