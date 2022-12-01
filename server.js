@@ -56,10 +56,9 @@ app.get(['/','/index.html'],async (request,response) => {
   };
   let fileName = 'index.html';
   response.sendFile(fileName,options)
-}) 
+});
 
-
-
+// обработка запросов на данные
 app.get('/FIST', async (request, response) => {
 
   
