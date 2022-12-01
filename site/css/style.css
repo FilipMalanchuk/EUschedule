@@ -93,11 +93,30 @@ header {
 	-webkit-box-shadow: 10px 10px 10px 6px rgba(89,89,89,1);
 	-moz-box-shadow: 10px 10px 10px 6px rgba(89,89,89,1);
 	box-shadow: 10px 10px 10px 6px rgba(89,89,89,1);
-	border:3px solid #163c94;
+	border:4px solid #163c94;
 	font-weight:bold;
 	font-size:16px;
 
 }
+.monday {
+	border-color: #F39c21;
+}
+.tuesday {
+	border-color: #A872ED;
+}
+.wednesday {
+	border-color: #09CFB3;
+}
+.thursday {
+	border-color: #E846A4;
+}
+.friday {
+	border-color: #A8CE02;
+}
+.saturday {
+	border-color: #0B9AF0;
+}
+
 .weekday .line {
 	width:100%;
 	min-height: 30px;
@@ -120,6 +139,9 @@ header {
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	border:0px;
+}
+.weekday .firstLine .daytext {
+	min-width: 120px;
 }
 
 .weekday .line p.Col1 {
@@ -165,7 +187,7 @@ header {
 	-webkit-box-shadow: 10px 10px 10px 6px rgba(89,89,89,1);
 	-moz-box-shadow: 10px 10px 10px 6px rgba(89,89,89,1);
 	box-shadow: 10px 10px 10px 6px rgba(89,89,89,1);
-	border:3px solid #163c94;
+	border:4px solid #163c94;
 	font-weight:bold;
 	font-size:20px;
 
@@ -271,4 +293,116 @@ footer {
 .phone {
 	align-self:center;
 	display: block;
+}
+
+@media screen and (max-width: 768px){
+	.inner {
+		max-width:768px;
+	}
+/*	start of header---------------------------------------*/
+	header {
+		height: auto;
+	}
+	.inner-header {
+		flex-direction:column;
+		align-items:center;
+	}
+	.LogoContainer {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.searchBar {
+		flex-direction: column;
+		width: 80%;
+	}
+	.searchBar > * {
+		margin-bottom: 20px;
+	}
+	.searchBar .naprav, 
+	.searchBar .dataCurs, 
+	.searchBar .groupChoose {
+		width: 80%;
+	}
+	.searchBar select,
+	.searchBar .naprav select {
+		width: 100%;
+	}
+/*	end of header---------------------------------------*/
+/*start of main---------------------------------------*/
+	.weekday {
+		width : 90%;
+		margin: 40px auto;
+	}
+	.weekday .firstLine {
+		display: flex;
+		flex-direction: column;
+	}
+	.weekday .firstLine > * {
+		margin: 10px 0;
+	}
+	.weekday .firstLine .daytext {
+		text-align: center;
+	}
+	.weekday .line {
+		flex-direction: column;
+	}
+	.weekday .line > * {
+		width: 100%;
+		margin: 5px;
+	}
+	.weekday .weekdayLogo {
+		max-width: 200px;
+	}
+	.weekday .line p.Col1 {
+		padding: 0;
+	}
+	.weekday .line .Col1,
+	.weekday .line .Col2,
+	.weekday .line .Col3,
+	.weekday .line .Col4 {
+		width: 100% !important;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+    	text-align: center;
+	}
+	.weekday .line.firstLine p {
+		width: auto;
+	}
+	/*end of main---------------------------------------*/
+/*	start of contacts---------------------------------------*/
+	.inner-contacts {
+		width : 90%;
+		margin: 40px auto;
+	}
+	.contacts .line {
+		flex-direction: column;
+	}
+	.inner-contacts .position,
+	.inner-contacts .name,
+	.inner-contacts .phone {
+    	width: 100%;
+    	margin-bottom: 15px;
+	}
+/*	end of contacts---------------------------------------*/
+/*	start of footer---------------------------------------*/
+	.inner-footer {
+		height: auto;
+		padding-bottom: 20px;
+	}
+	footer .links {
+		flex-direction: column;
+		text-align: center;
+	}
+	footer .links > .link {
+		padding-bottom: 20px;
+		border-bottom: 1px solid white;
+		border-radius:0;
+	}
+	footer .tglinklist {
+		flex-direction: column;
+
+	}
+
+}
 }
